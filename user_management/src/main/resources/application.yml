@@ -1,0 +1,13 @@
+server:
+  port: 8080
+spring:
+  datasource:
+    type: com.zaxxer.hikari.HikariDataSource
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://127.0.0.1:3306/report_manager_db
+    username: root
+    password: root
+
+  servlet:
+    multipart:
+      max-file-size: 150MB
